@@ -1,0 +1,8 @@
+test.py
+settings.py
+database.db
+.venv/
+discord.py/
+cards/
+.vscode/
+**.pyc

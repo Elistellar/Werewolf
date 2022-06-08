@@ -1,0 +1,5 @@
+git clone https://github.com/Rapptz/discord.py
+cd discord.py
+python3 -m pip install -U .[voice]
+
+https://discord.com/api/oauth2/authorize?client_id=983036709023412254&permissions=395426475088&scope=bot%20applications.commands

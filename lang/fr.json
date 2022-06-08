@@ -1,0 +1,16 @@
+{
+    "category_name": "Partie de {}",
+    "settings_channel_name": "🔧•Paramètres",
+    "voice_channel_name": "🔊 • Vocal",
+    "werewolves_channel_name": "🐺•Loup Garous",
+    "new_already_in_game": "Vous êtes déjà dans une partie 🤨 (<#{}>). Terminez-là avant d'en commencer une autre.",
+    "settings_title": "Paramètres de la partie",
+    "settings_description": "**Rôles :**\n- {loup_emote} {werewolves_nb} Loup{plural(werewolves_nb)} Garou{plural(werewolves_nb)}{'\n- ' + villageoi_emote + ' ' + str(villagers_nb) + ' Villageoi' + plural(villagers_nb) if villagers_nb > 0 else ''}\n- {sorciere_emote} 1 Sorcière\n- {voyante_emote} 1 Voyante{'\n- ' + cupidon_emote + ' 1 Cupidon' if cupid else ''}{'\n- ' + petite_fille_emote + ' 1 Petite Fille' if little_girl else ''}{'\n- ' + chasseur_emote + ' 1 Chasseur' if hunter else ''}{'\n- ' + voleur_emote + ' 1 Voleur' if thief else ''}\n\n**Joueurs :**{''.join(['\n- <@' + player.id + '>' for player in players])}",
+    "unexisting_game": "Vous ne dirigez aucune partie en cours",
+    "creating_new_game": "Partie en cours de création...",
+    "new_game_created": "Partie créée !",
+    "game_stopped": "Partie stoppée !",
+    "success": "Ok !",
+    "negative_number": "Le nombre doit être positif !",
+    "at_least_one_werewolf": "il doit y avoir au moins un Loup Garou dans la partie !"
+}
