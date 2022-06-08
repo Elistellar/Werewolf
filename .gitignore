@@ -1,5 +1,5 @@
 test.py
-settings.py
+settings.json
 database.db
 .venv/
 discord.py/
